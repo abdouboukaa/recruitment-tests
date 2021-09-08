@@ -1,9 +1,9 @@
-def voteSystem(n, votes, project_range):
+def compute_executable_projects(n, participants_votes, project_range):
 	if project_range == 0:
 		return 'No projects, sorry!'
 	projects={}
 	for i in range(0,n):
-		vote = votes[i]
+		vote = participants_votes[i]
 		for j in range(0,len(vote)):
 			if j in projects:
 				projects[j] = projects[j] + vote[j]
