@@ -1,6 +1,6 @@
 result = []
 def fizzbuzz(n):
-    for x in range(1, x):
+    for x in range(1, n):
         if x % 15 == 0:
             result.append("fizzbuzz")
         elif x % 3 == 0:
