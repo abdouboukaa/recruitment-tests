@@ -8,5 +8,5 @@ def fizzbuzz(n):
         elif x % 5 == 0:
             result.append("buzz")
         else:
-            result.append(int(x))
+            result.append(str(x))
     return result
