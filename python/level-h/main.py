@@ -14,4 +14,8 @@ def voteSystem(n, votes, project_range):
 	output =[]
 	for i in range(0,project_range):
 		output.append(orderedProjectsKeys[i] + 1)
+<<<<<<< HEAD
 	return output
+=======
+	return output
+>>>>>>> 5fe7b0143cbe3a37a56b4ef43429d7db8a32f3ac
