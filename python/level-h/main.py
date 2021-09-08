@@ -1,7 +1,7 @@
 def voteSystem(n, votes, project_range):
     if project_range == 0:
 		return 'No projects, Sorry !'
-	projects={};
+	projects={}
 	for i in range(0,n):
 		vote = votes[i]
 		for j in range(0,len(vote)):
