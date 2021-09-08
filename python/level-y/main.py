@@ -6,5 +6,5 @@ def compute_temperature_data(temps):
     median = statistics.median(temps)
     x = min(temps)
     y = max(temps)
-    results = average,median,x,y
+    results = (median,average,x,y)
     return np.round(results, 1)
